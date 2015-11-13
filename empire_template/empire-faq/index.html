@@ -1,0 +1,3655 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+    
+    <!-- Syntax Highlighter -->
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeDefault.css" media="all">
+    
+    <script src="js/modernizr.js"></script>
+    
+	<title>Empire Template FAQ</title>
+</head>
+<body>
+<header>
+	<h1>Empire HTML Template FAQ</h1>
+    <p>by <a href="http://codeandsquare.com" target="_blank">Code &amp; Square</a></p>
+</header>
+<section class="faq-main">
+    <p class="faq-intro">Thank you for purchasing this fantastic template, your support is hugely appreciated! This FAQ covers the installation and use of this template so please read this document thoroughly if you are experiencing any difficulties. If you have any questions that are beyond the scope of this document, feel free to pose them in the dedicated support section.</p>
+</section>
+
+<section class="faq-main">
+	<ul class="faq-categories">
+        <li><a class="selected" href="#template">Template Features</a></li>
+        <li><a href="#install">Installing Template</a></li>
+		<li><a href="#html">HTML Structure</a></li>
+		<li><a href="#jscript">Javascript Structure</a></li>
+		<li><a href="#animation">Animation Settings</a></li>
+        <li><a href="#parallax">Parallax Intro</a></li>
+        <li><a href="#video">Video Intro</a></li>
+        <li><a href="#slider">Carousel Intro</a></li>
+		<li><a href="#portfolio">Portfolio Settings</a></li>
+        <li><a href="#contact">Contact Settings</a></li>
+        <li><a href="#newsletter">Newsletter Settings</a></li>
+        <li><a href="#twitter">Twitter Feed</a></li>
+        <li><a href="#shortcodes">Shortcodes</a></li>
+        <li><a href="#retina">Retina</a></li>
+	</ul>
+
+	<div class="faq-items">
+        <ul id="template" class="faq-group">
+			<li class="faq-title"><h2>Template Features</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">What's included</a>
+				<div class="faq-content">
+<p>Elegant &amp; Minimal Design</p>
+<p>HTML5 &amp; CSS3</p>
+<p>Fully Responsive Design</p>
+<p>Standard Grid Layout based on Bootstrap</p>
+<p>Retina Display Ready</p>
+<p>Parallax Intro with Slider</p>
+<p>Fullscreen Video Background</p>
+<p>Custom Slider intro</p>
+<p>Filterable Portfolio</p>
+<p>PHP Contact Form</p>
+<p>Ajax Newsletter/Subscription Form for MailChimp</p>
+<p>Parallax Scrolling</p>
+<p>Lightbox Image Gallery</p>
+<p>Scroll animations</p>
+<p>Modal Windows</p>
+<p>Facts Counter</p>
+<p>Integrated Twitter Feed</p>
+<p>Blog Page</p>
+<p>Post Page</p>
+<p>404 Page</p>
+<p>Owl Carousel</p>
+<p>Shortcodes (Columns, Buttons, Toggles, Tabs, Accordion, Pricelist, Responsive Video)</p>
+<p>Icon Fonts by Pixeden</p>
+<p>400+ Font Awesome Icons</p>
+<p>Page loader</p>
+<p>Custom Share buttons</p>
+<p>Many theming options like colour, fonts, social media</p>
+<p>Crossbrowser compatible with IE9+, Firefox, Safari, Opera, Chrome</p>
+<p>Support and updates</p>
+				</div>
+			</li>
+
+		</ul>
+           
+        <ul id="install" class="faq-group">
+			<li class="faq-title"><h2>Installing Template</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">Installing Theme</a>
+				<div class="faq-content">
+					<p>1. Unzip the file you have downloaded</p><br>
+                    <p>2. Open the folder and use your favorite editor (f.e. Adobe Brackets, Sublime, Dreamweaver etc.) to edit included files.</p><br>
+                    <p>3. You can view this Template in any browser and also edit the Template without an internet connection. The only section that will not work is the contact/subscribe form which contains PHP code and requires a server enviroment to work. You can also use a virtual server like MAMP.</p>
+                    <br>
+                    <p>4. When you are done editing, upload the template to your server, here is how to do it if you have never done it before:</p><br>
+                    <p>- Use an FTP client (for example FileZilla, which is free), login and upload.</p>
+                    <p>- Make sure the files/folders stay exactly as they are otherwise you will encounter problems especially with javascript.</p>
+                    <br>
+                    <p>5. Also, do not forget to change the author, description and keywords meta tags with your own.</p><br>
+                    <pre class="brush: xml; syntaxhighlighter">
+    <!-- your meta info -->
+    <meta name="description" content="EMPIRE - A Responsive One Page HTML 5 Template with a sophisticated style and great design">
+    <meta name="keywords" content="HTML 5, CSS, website template, business, portfolio, style, minimalism and design.">
+    <meta name="author" content="codeandsquare.com">
+                    </pre>
+                    <br>
+                    <p>- Done. Easy as that.</p>
+                </div>	
+			</li>
+		</ul>
+        
+		<ul id="html" class="faq-group">
+			<li class="faq-title"><h2>HTML Structure</h2></li>
+			<li>
+                <a class="faq-trigger" href="#0">Head/CSS Structure</a>
+                <div class="faq-content">
+                    <p>This Template has a Responsive layout and is based on the Bootstrap Framework. For more information about this visit <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>. All of the CSS style sheets and files are located at the beginning of every html page. Remove or add depending on what features you will use.</p>
+                    <pre class="brush: html; syntaxhighlighter">
+
+    <!-- css sheets -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <!-- reset -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!-- pe-icons -->
+    <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <!-- owl default theme -->
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+                                                     
+                    </pre>
+                       
+                </div>
+            </li>
+            
+            
+            <li>
+				<a class="faq-trigger" href="#0">Google Web Fonts</a>
+                <div class="faq-content">
+                    <p>By default, the template loads these fonts from Google Web Font Services, you can easily change any font with one that suits your needs. Also adding a new font is easy, just visit <a href="https://www.google.com/fonts" target="_blank">Google Fonts website and find the font you like</a>.</p>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+                                                    
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700,100italic,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+                    
+                    </pre>
+                    
+                    <p>Also, remember to add the font in the style.css file as well.</p>
+                                                     
+                    <pre class="brush: css; syntaxhighlighter">
+                    /* Like so */
+                                                    
+                    body {
+                        font-family: 'Raleway', sans-serif;
+                        background-color: #ffffff;
+                        color: #464646;
+                        -webkit-font-smoothing: antialiased;
+                        -webkit-text-size-adjust: 100%;
+                    }
+
+                    </pre>
+                    
+                </div>
+            </li>
+               
+            <li>
+                <a class="faq-trigger" href="#0">Grid</a>
+                <div class="faq-content">
+                    <p>The grid is based on the Bootstrap Framework for easy set up. If you like to know more on how to set it up please, visit <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>.</p><br>
+                                                    
+                    <pre class="brush: html; syntaxhighlighter">
+                    /* Extra small devices (phones, less than 768px) */
+                    /* No media query since this is the default in Bootstrap */
+                    <div class="row">
+                        <div class="col-xs-12">...</div>
+                    </div>
+
+                    /* Small devices (tablets, 768px and up) */
+                    @media (min-width: @screen-sm-min) { ... }
+                    <div class="row">
+                        <div class="col-sm-8">...</div>
+                    </div>
+
+                    /* Medium devices (desktops, 992px and up) */
+                    @media (min-width: @screen-md-min) { ... }
+                    <div class="row">
+                        <div class="col-md-4">...</div>
+                    </div>
+
+                    /* Large devices (large desktops, 1200px and up) */
+                    @media (min-width: @screen-lg-min) { ... }
+                    <div class="row">
+                        <div class="col-lg-12">...</div>
+                    </div>
+                    </pre>
+                        
+                    <p>Fluid Container (Full screen width)</p>
+                    <pre class="brush: html; syntaxhighlighter">
+                    <div class="container-fluid">
+                        <div class="row">
+                        ...
+                        </div>
+                    </div>
+                    </pre>
+                    
+                </div>
+            </li>
+            
+		</ul>
+
+		<ul id="jscript" class="faq-group">
+			<li class="faq-title"><h2>Javascript Structure</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">Javascripts in use</a>
+				<div class="faq-content">
+					<p>All of the JS files are located at the end of the Body Section.</p>
+                    <br>
+                    <p>Only Modernizr.js is loaded in the Head Section.</p>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+
+                    <!-- detects HTML5 and CSS3 features in the user’s browser -->
+                    <script type="text/javascript" src="js/modernizr.js"></script>
+ 
+                    </pre>
+                    
+                    <p>And this is the entire list.</p>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+<!-- javascripts plugins -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script> <!-- jquery jscript-->
+<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- bootstrap jscript -->
+<script type="text/javascript" src="js/jquery.easing.js"></script> <!-- required for scrolling -->
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script> <!-- counter jscript -->
+<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script> <!-- scroll to section jscript -->
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> <!-- owl carousel script -->
+<script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script> <!-- newsletter chimp script -->
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script> <!-- waypoints jscript -->
+<script type="text/javascript" src="js/isotope.pkgd.min.js"></script> <!-- isotop portfolio jscript -->
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script> <!-- image loading jscript -->
+<script type="text/javascript" src="js/twitterFetcher.js"></script> <!-- tweet fetcher script -->
+<script type="text/javascript" src="js/wow.js"></script> <!-- WOW animation jscript -->
+<script type="text/javascript" src="js/retina.js"></script> <!-- retina images script -->
+<script type="text/javascript" src="js/parallax-custom.js"></script> <!-- parallax jscript -->
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script> <!-- flexslider jscript -->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> <!-- google maps api script -->
+<script type="text/javascript" src="js/lightbox.min.js"></script> <!-- lightbox script -->
+
+<!-- template script -->
+<script type="text/javascript" src="js/script.js"></script>
+                       
+                    </pre>
+                </div>
+            </li>
+            <li>
+                <a class="faq-trigger" href="#0">Template script</a>
+				<div class="faq-content">
+                    <p>This is the complete custom code in script.js and is responsible for all custom events within the template. You can edit the following file according to your requirements.</p>
+                    
+                    <pre class="brush: jscript; syntaxhighlighter">
+
+
+
+// Template Name: EMPIRE
+// Version: 1.2
+// Author: Code & Square
+// Author URI: codeandsquare.com
+
+ jQuery(document).ready(function ($) { 
+    "use strict";
+    
+// 	PRELOADER
+    $(".preloader").delay(1000).fadeOut("slow")
+ 
+//	NAVIGATION
+    $('.main-nav li a').bind('click',function(event){
+        var $anchor = $(this);
+	   		
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - 102
+        }, 1500,'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    $(".nav-trigger, .nav").on('click', function () {
+        $(".nav").fadeToggle(500);
+    });
+    $(".nav-trigger, .nav").on('click', function () {
+        $(".top-nav").toggleClass("nav-line-top");
+        $(".mid-nav").toggleClass("nav-line-mid");
+        $(".bottom-nav").toggleClass("nav-line-bottom");
+    });
+
+    $('.nav li, .internal-link').on('click', function() {
+        var target = $(this).data('rel');
+        var $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing');
+    });
+               
+//	EASING
+    $('.nav li a').bind('click',function(event){
+        var $anchor = $(this);
+			
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('data-rel')).offset().top - 102
+        }, 1500,'easeInOutExpo');
+        event.preventDefault();
+    });
+
+//	PAGE SCROLLING
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+//	COUNTER
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+               
+//	WOW     
+    var wow = new WOW({
+        boxClass: 'wow', // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset: 100, // distance to the element when triggering the animation (default is 0)
+        mobile: false // trigger animations on mobile devices (true is default)
+    });
+    wow.init();
+    
+//	TWITTER
+    var config = {
+        "id": '618057979213049856', // input data-widget-id here
+        "domId": 'tweets',
+        "maxTweets": 3, // defines how many tweet to show
+        "enableLinks": true,
+        "showUser": true,
+        "showTime": true,
+        "dateFunction": '',
+        "showRetweet": false,
+        "customCallback": handleTweets,
+        "showInteraction": false,
+        "linksInNewWindow": true,
+    };
+    function handleTweets(tweets){
+        var x = tweets.length;
+        var n = 0;
+        var element = document.getElementById('tweets');
+        var html = '<p>';
+        while(n < x) {
+            html +=  tweets[n];
+            n++;
+        }
+        html += '</p>';
+        element.innerHTML = html;
+    }
+    twitterFetcher.fetch(config);  
+    
+//	INTRO CAROUSEL
+    $("#owl-intro-text").owlCarousel({
+        singleItem : true,
+        slideSpeed : 300,
+        autoPlay: true, 
+        stopOnHover : true,
+        navigation : false,
+        navigationText : false,
+        pagination : true
+    })
+    
+//	CLIENTS CAROUSEL
+    $("#owl-clients").owlCarousel({
+        stopOnHover : true,
+        pagination : false,
+        autoPlay : 2000,
+        autoPlay: true,  
+        items : 4,
+        itemsDesktop:[1199,4],  
+        itemsDesktopSmall:[979,3], //As above.
+        itemsTablet:[768,2], //As above.
+        // itemsTablet:[640,2],   
+        itemsMobile:[479,1], //As above  
+    });
+    
+//	TESTIMONIALS FLEXSLIDER
+	$('.flexslider').flexslider({
+		animation: "fade",
+		directionNav: false,
+	});
+    
+//	PORTFOLIO FILTER
+    $(window).load(function(){
+    
+        var container = $('.portfolio-container');
+
+        container.isotope({
+            itemSelector: '.portfolio-item',
+            animationEngine: 'best-available',
+            animationOptions: {
+            duration: 200,
+            queue: false
+            },
+            layoutMode: 'fitRows'
+        });
+
+        // sort items on button click
+        $('.portfolio-filter a').on('click', function() {
+            $('.portfolio-filter .current').removeClass('current');
+            $(this).addClass('current');
+            var selector = $(this).attr('data-filter');
+            container.isotope({
+                filter: selector,
+            });
+            return false;
+        });
+        
+        // Split columns for different size layout
+        function splitColumns() {
+            var windowWidth = $(window).width(),
+                columnNumber = 1;
+            if (windowWidth > 1200) {
+                columnNumber = 4;
+            } else if (windowWidth > 767) {
+                columnNumber = 3;
+            } else if (windowWidth > 600) {
+                columnNumber = 2;
+            }
+            return columnNumber;
+        }
+        // Set width for portfolio item
+        function setColumns() {
+            var windowWidth = $(window).width(),
+                columnNumber = splitColumns(),
+                postWidth = Math.floor(windowWidth / columnNumber);
+
+            container.find('.portfolio-item').each(function() {
+                $(this).css({
+                    width: postWidth + 'px'
+                });
+            });
+        }
+        // initialize isotope
+        function initIsotope() {
+            setColumns();
+            container.isotope('layout');
+        }
+        container.imagesLoaded(function() {
+            setColumns();
+        });
+        $(window).bind('resize', function() {
+            initIsotope();
+        });
+        initIsotope();
+  
+    });
+    
+
+//	SKILLBAR
+    $('.skillbar').each(function(){
+        $(this).find('.skillbar-bar').animate({
+            width:$(this).attr('data-percent')
+        },9000);
+    });
+    
+// INTRO SLIDER
+   var slidesWrapper = $('.intro-slider');
+
+     if ( slidesWrapper.length > 0 ) {
+         var carouselNav = $('.carousel-nav'),
+             navigationMarker = $('.carousel-marker'),
+             slidesNumber = slidesWrapper.children('li').length,
+             visibleSlidePosition = 0,
+             autoPlayId,
+             autoPlayDelay = 5000;
+
+         uploadVideo(slidesWrapper);
+         setAutoplay(slidesWrapper, slidesNumber, autoPlayDelay);
+	     	
+         carouselNav.on('click', 'li', function(event){
+             event.preventDefault();
+             var selectedItem = $(this);
+             if(!selectedItem.hasClass('active')) {
+                 var selectedPosition = selectedItem.index(),
+                     activePosition = slidesWrapper.find('li.active').index();
+		  		
+                 if( activePosition < selectedPosition) {
+                     nextSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, selectedPosition);
+                 } else {
+                     prevSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, selectedPosition);
+                 }
+                     
+                 visibleSlidePosition = selectedPosition;
+                   
+                 updateSliderNavigation(carouselNav, selectedPosition);
+                 updateNavigationMarker(navigationMarker, selectedPosition+1);
+                 setAutoplay(slidesWrapper, slidesNumber, autoPlayDelay);
+             }
+         });
+     }
+
+     function nextSlide(visibleSlide, container, pagination, n){
+         visibleSlide.removeClass('active from-left from-right').addClass('is-moving').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+             visibleSlide.removeClass('is-moving');
+         });
+
+         container.children('li').eq(n).addClass('active from-right').prevAll().addClass('move-left');
+         checkVideo(visibleSlide, container, n);
+     }
+
+     function prevSlide(visibleSlide, container, pagination, n){
+         visibleSlide.removeClass('active from-left from-right').addClass('is-moving').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+             visibleSlide.removeClass('is-moving');
+         });
+
+         container.children('li').eq(n).addClass('active from-left').removeClass('move-left').nextAll().removeClass('move-left');
+         checkVideo(visibleSlide, container, n);
+     }
+
+     function updateSliderNavigation(pagination, n) {
+         var navigationDot = pagination.find('.active');
+         navigationDot.removeClass('active');
+         pagination.find('li').eq(n).addClass('active');
+     }
+
+     function setAutoplay(wrapper, length, delay) {
+         if(wrapper.hasClass('autoplay')) {
+             clearInterval(autoPlayId);
+             autoPlayId = window.setInterval(function(){autoplaySlider(length)}, delay);
+         }
+     }
+
+     function autoplaySlider(length) {
+         if( visibleSlidePosition < length - 1) {
+             nextSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, visibleSlidePosition + 1);
+             visibleSlidePosition +=1;
+         } else {
+             prevSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, 0);
+             visibleSlidePosition = 0;
+         }
+         updateNavigationMarker(navigationMarker, visibleSlidePosition+1);
+         updateSliderNavigation(carouselNav, visibleSlidePosition);
+     }
+
+     function uploadVideo(container) {
+         container.find('.video-wrapper').each(function(){
+             var videoWrapper = $(this);
+             if( videoWrapper.is(':visible') ) {
+                 var videoUrl = videoWrapper.data('video'),
+                     video = $('<video loop><source src="'+videoUrl+'.mp4" type="video/mp4" /><source src="'+videoUrl+'.webm" type="video/webm" /><source src="'+videoUrl+'.ogv" type="video/ogv" /></video>');
+                 video.appendTo(videoWrapper);
+                 if(videoWrapper.parent('.video-bg.active').length > 0) video.get(0).play();
+             }
+         });
+     }
+
+     function checkVideo(hiddenSlide, container, n) {
+         var hiddenVideo = hiddenSlide.find('video');
+         if( hiddenVideo.length > 0 ) hiddenVideo.get(0).pause();
+         
+         var visibleVideo = container.children('li').eq(n).find('video');
+         if( visibleVideo.length > 0 ) visibleVideo.get(0).play();
+     }
+       
+     function updateNavigationMarker(marker, n) {
+         marker.removeClassPrefix('item').addClass('item-'+n);
+     }
+
+     $.fn.removeClassPrefix = function(prefix) {
+         this.each(function(i, el) {
+             var classes = el.className.split(" ").filter(function(c) {
+                 return c.lastIndexOf(prefix, 0) !== 0;
+             });
+             el.className = $.trim(classes.join(" "));
+         });
+         return this;
+     };
+    
+//	VIDEO BACKGROUND
+    $(function() {
+
+        scaleVideoContainer();
+        
+        $(window).on('resize', function() {
+            scaleVideoContainer();
+        });
+
+    });
+
+    // Reusable Functions
+    function scaleVideoContainer() {
+        
+        var height = $(window).height();
+        var unitHeight = parseInt(height) + 'px';
+        $('.video-intro').css('height',unitHeight);
+
+    }
+    
+//	SUBSCRIBE AJAX MAILCHIMP FORM
+	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
+	var mailChimpURL = 'http://codeandsquare.us11.list-manage.com/subscribe/post?u=2a14dee51c1c79d79d01d17b3&amp;id=da88437b43'
+
+
+	$('#mc-form').ajaxChimp({
+
+		language: 'es',
+	   url: mailChimpURL
+
+	});
+
+	// Mailchimp translation
+	//
+	//  Defaults:
+	//	 'submit': 'Submitting...',
+	//  0: 'We have sent you a confirmation email',
+	//  1: 'Please enter a value',
+	//  2: 'An email address must contain a single @',
+	//  3: 'The domain portion of the email address is invalid (the portion after the @: )',
+	//  4: 'The username portion of the email address is invalid (the portion before the @: )',
+	//  5: 'This email address looks fake or invalid. Please enter a real email address'
+
+	$.ajaxChimp.translations.es = {
+	  'submit': 'Submitting...',
+	  0: '<i class="fa fa-check"></i> We have sent you a confirmation email',
+	  1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
+	  2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+	  3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+	  4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+	  5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
+	}
+
+    
+//	CONTACT FORM
+    function initContactForm() {
+        var scrollElement = $('html,body'),
+            contactForm = $('.contact-form');
+
+        contactForm.on('submit', function() {
+
+            var requiredFields = $(this).find('.required'),
+                formData = contactForm.serialize(),
+                formAction = $(this).attr('action'),
+                formSubmitMessage = $('.response-message');
+
+            requiredFields.each(function() {
+
+                if( $(this).val() === "" ) {
+                        
+                    $(this).addClass('input-error');
+
+                } else {
+
+                    $(this).removeClass('input-error');
+                }
+
+            });
+
+            function validateEmail(email) { 
+                var exp = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                return exp.test(email);
+            }
+            
+            var emailField = $('.contact-form-email');
+
+            if( !validateEmail(emailField.val()) ) {
+
+                emailField.addClass("input-error");
+
+            }
+
+            if ($(".contact-form :input").hasClass("input-error")) {
+                return false;
+            } else {
+
+                $.post(formAction, formData, function(data) {
+                    formSubmitMessage.text(data);
+
+                    requiredFields.val("");
+                    
+                    setTimeout(function() {
+                        formSubmitMessage.slideUp();
+                    }, 5000);
+                });
+                
+            }
+
+            return false;
+        });
+
+    }
+    initContactForm();
+    
+});
+                       
+                    </pre>
+                </div>
+            </li>
+            
+            <li>
+                <a class="faq-trigger" href="#0">JS links</a>
+				<div class="faq-content">
+                    <p>These are the scripts used in the template with their related link for documentation.</p><br>
+
+                    <ul>
+                        <li><a href="http://jquery.com/" target="_blank">jQuery</a></li><br>
+                        <li><a href="http://modernizr.com/" target="_blank">Modernizr</a></li><br>
+                        <li><a href="http://getbootstrap.com" target="_blank">Bootstrap</a></li><br>
+                        <li><a href="https://github.com/gdsmith/jquery.easing" target="_blank">Easing</a></li><br>
+                        <li><a href="https://github.com/bfintal/Counter-Up" target="_blank">CounterUp</a></li><br>
+                        <li><a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl Carousel</a></li><br>
+                        <li><a href="http://isotope.metafizzy.co" target="_blank">Isotop</a></li><br>
+                        <li><a href="https://github.com/desandro/imagesloaded" target="_blank">ImagesLoaded</a></li><br>
+                        <li><a href="http://jasonmayes.com/projects/twitterApi/#sthash.azqqRY3S.dpbs" target="_blank">TwitterFetcher</a></li><br>
+                        <li><a href="https://github.com/scdoshi/jquery-ajaxchimp" target="_blank">Ajax MailChimp Form</a></li><br>
+                        <li><a href="http://mynameismatthieu.com/WOW/" target="_blank">WOW</a></li><br>
+                        <li><a href="http://pixelcog.github.io/parallax.js/" target="_blank">Parallax</a></li><br>
+                        <li><a href="http://imulus.github.io/retinajs/" target="_blank">Retina</a></li><br>
+                        <li><a href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank">LightBox</a></li><br>
+                    </ul>
+                       
+                    </pre>
+                    
+				</div>
+			</li>
+
+		</ul>
+
+		<ul id="animation" class="faq-group">
+			<li class="faq-title"><h2>Animation Settings</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">How to set it up</a>
+				<div class="faq-content">
+					<p>These two files are responsible for the animation effect when scrolling.</p>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+                    <!-- animate -->
+                    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+                    </pre>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+                    <!-- WOW animation jscript -->
+                    <script type="text/javascript" src="js/wow.js"></script>
+
+                    </pre>
+                    
+                    <br>
+                    <p>These are the delay timers for WOW. What WOW.js does is reveal animations as you scroll a page. If you want the scroll animation timing to be the same throughout the page then you don't have to include it.</p>
+                    <pre class="brush: css; syntaxhighlighter">
+
+/* ================================================
+	           WOW ANIMATION TIMERS
+================================================ */
+
+.data-wow-delay-01s { 
+	animation-delay: 0.1s; 
+	-webkit-animation-delay: 0.1s; 
+}
+.data-wow-delay-02s { 
+	animation-delay: 0.2s; 
+	-webkit-animation-delay: 0.2s; 
+}
+.data-wow-delay-03s { 
+	animation-delay: 0.3s; 
+	-webkit-animation-delay: 0.3s; 
+}
+.data-wow-delay-04s { 
+	animation-delay: 0.4s; 
+	-webkit-animation-delay: 0.4s; 
+}
+.data-wow-delay-05s { 
+	animation-delay: 0.5s; 
+	-webkit-animation-delay: 0.5s; 
+}
+.data-wow-delay-06s { 
+	animation-delay: 0.6s; 
+	-webkit-animation-delay: 0.6s; 
+}
+.data-wow-delay-07s { 
+	animation-delay: 0.7s; 
+	-webkit-animation-delay: 0.7s; 
+}
+.data-wow-delay-08s { 
+	animation-delay: 0.8s; 
+	-webkit-animation-delay: 0.8s; 
+}
+.data-wow-delay-09s { 
+	animation-delay: 0.9s; 
+	-webkit-animation-delay: 0.9s; 
+}
+.data-wow-delay-10s { 
+	animation-delay: 1.0s; 
+	-webkit-animation-delay: 1.0s; 
+}
+.data-wow-delay-11s { 
+	animation-delay: 1.1s; 
+	-webkit-animation-delay: 1.2s; 
+}
+.data-wow-delay-12s { 
+	animation-delay: 1.2s; 
+	-webkit-animation-delay: 1.2s; 
+}
+                    </pre>
+                    
+                    <p>And this is how you add it to any class, "xxxxx-xxxxx wow fadeInDown data-wow-delay-06s".</p>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="hire-buttons wow fadeInDown data-wow-delay-06s">
+                                <a href="#" class="btn btn-xlg">Request a Quote</a>
+                                <a href="#" class="btn btn-xlg">Hire Us</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    </pre>
+                    
+                    <br>
+                    <p>Here is a link to the <a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a> website where you can see all animations. Also download the latest file if available.</p>
+                    
+				</div>
+			</li>
+		</ul>
+
+		<ul id="parallax" class="faq-group">
+            <li class="faq-title"><h2>Parallax Intro</h2></li>
+            <li>
+                <a class="faq-trigger" href="#0">Parallax Setup</a>
+                <div class="faq-content">
+					
+                    <p>Parallax is a great feature that is easy to set up. All you have to do is define a parallax class "parallax",  add " data-parallax="scroll" " and a background image " data-image-src="img/background/intro-bg.jpg" ", see below.
+                    </p>
+                    <p>*NOTE: We would like to stress that Parallax might not have desirable behaviour in every browser. That's not the plugins fault but the lack of Parallax support by a browser. Also we disabled parallax effect for IE completely as it appeared to be a bit jumpy and it didn't look professional. As this is a 3rd party plugin we had to adjust some code to disable that in the plugin's file. If you feel like parallax is not for your website feel free to competely remove it. All you have to do is remove the parallax class together with the data-parallax and background image and define the background in css instead.</p>
+                    <br>
+                    <p>So, here is the parallax setup:</p>
+                    <pre class="brush: html; syntaxhighlighter">
+<header class="parallax-window" data-parallax="scroll" data-image-src="img/background/intro-bg.jpg" id="home">
+</header>
+                    </pre>
+                    
+                    <p>Here is the css code required to view the parallax images correctly.</p>
+                    <pre class="brush: css; syntaxhighlighter">
+#carousel-intro {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#counter-area {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    background: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 80px 0px 80px 0px;
+}
+
+                    </pre>
+                    
+				</div>
+			</li>
+            
+            <li>
+                <a class="faq-trigger" href="#0">Slider Setup</a>
+                <div class="faq-content">
+                    
+                <p>The slider is created by using the Owl Carousel plugin. You can add or remove slides as you wish. Just copy the whole "item" class and paste it in place you wish the particualr slide to be in. Change the text and done. If you prefer not to have the slider at all, just replace the carousel with some intro text.</p>
+                    <pre class="brush: html; syntaxhighlighter"> 
+
+        <div class="caption text-center" data-stellar-ratio="0.7">
+
+            <div id="owl-intro-text" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="logo"><img src="img/nine.png"></div>
+                    <h1>EMPIRE</h1>
+                    <p>MULTI-PURPOSE ONE PAGE HTML TEMPLATE</p>
+                    <h2>HTML5 - CSS3 - BOOTSTRAP</h2>
+                    <a class="btn btn-md page-scroll" href="#about">See More</a>
+                </div>
+                <div class="item">
+                    <div class="logo"><img src="img/nine.png"></div>
+                    <h1>DESIGN</h1>
+                    <p>STYLE, MINIMALISM &amp; QUALITY</p>
+                    <h2>HTML5 - CSS3 - BOOTSTRAP</h2>
+                    <a class="btn btn-md page-scroll" href="#about">See More</a>
+                </div>
+                <div class="item">
+                    <div class="logo"><img src="img/nine.png"></div>
+                    <h1>ADAPTIVE</h1>
+                    <p>RESPONSIVE DESIGN TO FIT EVERY SCREEN</p>
+                    <h2>HTML5 - CSS3 - BOOTSTRAP</h2>
+                    <a class="btn btn-md page-scroll" href="#about">See More</a>
+                </div>
+            </div>
+        </div>
+
+</pre>
+                    
+                <p>And here is the slider CSS setup and styling.</p>
+                    <pre class="brush: css; syntaxhighlighter"> 
+
+#carousel-intro {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#carousel-intro .content {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    width: 100%;
+    height: 420px;
+}
+
+#carousel-intro .opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.52);
+}
+
+#carousel-intro .caption {
+	position: relative;
+	top: 0;
+}
+
+#carousel-intro .caption .logo {
+    margin: 0 auto 10px;
+}
+
+#carousel-intro .caption h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#carousel-intro .caption p {
+    margin: 10px auto 10px;
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#carousel-intro .caption h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #d6d6d6;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#carousel-intro .caption .btn {
+    margin: 30px auto 30px;
+}
+
+#carousel-intro .caption .btn:hover,
+#carousel-intro .caption .btn:focus {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+}
+
+
+                    </pre>
+					
+                    <p>And this is the slider's javascript that activates the slider with a few settings. You can change the slider settings to your liking. Please, refer to the plugins website if you need more info on how to set up the slider.</p>
+                    <pre class="brush: jscript; syntaxhighlighter">
+                    
+/* ================================================ */
+/*	INTRO CAROUSEL
+/* ================================================ */
+    
+    $("#owl-intro-text").owlCarousel({
+        singleItem : true,
+        slideSpeed : 300,
+        autoPlay: true, 
+        stopOnHover : true,
+        navigation : false,
+        navigationText : false,
+        pagination : true
+    })
+
+                    </pre>
+                    
+				</div>
+			</li>
+		</ul>
+                
+        <ul id="video" class="faq-group">
+            <li class="faq-title"><h2>Video Intro</h2></li>
+            
+            <li>
+                <a class="faq-trigger" href="#0">Video Intro Setup</a>
+                <div class="faq-content">
+                    
+                <p>Video Intro is as easy to set up as its Image counterpart. All you have to do is add your own video as you see below. You should have 3 types of video (mp4, ogg and webm) otherwise some browsers will not play it. We use <a href="http://www.online-convert.com" target="_blank">online-convert.com</a> which is free and fast. It does a great job. This is the video header:</p>
+                    <pre class="brush: html; syntaxhighlighter"> 
+
+<!-- header start -->
+<header class="video-intro">
+    <div class="video-container">
+        <div class="opacity"></div> <!-- Opacity color -->
+        <div class="content">
+            <div class="text">
+                <div class="logo"><img src="img/nine.png"></div>
+                <h1 class="empire">EMPIRE</h1>
+                <hr class="style-three">
+                <h1>CREATIVE STUDIO - NEW YORK</h1>
+                <p>BRANDING - GRAPHICS - MEDIA</p>
+            </div>
+        </div>
+        <video autoplay loop class="fillWidth">
+            <source src="video/intro-video.mp4" type="video/mp4">
+            <source src="video/intro-video.ogv" type="video/ogg">
+            <source src="video/intro-video.webm" type="video/webm">
+        </video>
+        <div class="poster hidden">
+            <img src="/video/video-intro.jpg" alt="">
+        </div>
+        <div class="arrow-down"></div>
+    </div>
+</header>
+<!-- header end -->
+
+</pre>
+                    
+                <p>You will also need a "hidden" image that enables only on mobile devices or in case the video will for some reason fail to play.</p>
+                    <pre class="brush: html; syntaxhighlighter"> 
+
+                    <div class="poster hidden">
+                        <img src="/video/video-intro.jpg" alt="">
+                    </div>
+
+
+                    </pre>
+					
+                    <p>And this is the javascript that does the heavy lifting.</p>
+                    <pre class="brush: jscript; syntaxhighlighter">
+                    
+//	VIDEO BACKGROUND
+    $(function() {
+
+        scaleVideoContainer();
+        
+        $(window).on('resize', function() {
+            scaleVideoContainer();
+        });
+
+    });
+
+    // Reusable Functions
+    function scaleVideoContainer() {
+        
+        var height = $(window).height();
+        var unitHeight = parseInt(height) + 'px';
+        $('.video-intro').css('height',unitHeight);
+
+    }
+
+                    </pre>
+                    
+				</div>
+			</li>
+		</ul>
+                    
+        <ul id="slider" class="faq-group">
+            <li class="faq-title"><h2>Carousel Intro</h2></li>
+            <li>
+                <a class="faq-trigger" href="#0">Carousel Setup</a>
+                <div class="faq-content">
+					
+                    <p>Custom made Carousel as an alternative to the default image intro. Just change the slide text and images with your own and that's all to it.</p>
+                    <pre class="brush: html; syntaxhighlighter">
+<!-- intro section start -->
+<section class="intro-carousel" id="home">
+    <ul class="intro-slider autoplay">
+        <li class="active">
+            <div class="carousel-12">
+                <div class="content">
+                <div class="caption text-center" data-stellar-ratio="0.7">
+                    <div class="logo"><img src="img/nine.png"></div>
+                    <h1>EMPIRE</h1>
+                    <p>MULTI-PURPOSE ONE PAGE HTML TEMPLATE</p>
+                    <h2>HTML5 - CSS3 - BOOTSTRAP</h2>
+                    <a class="btn btn-md page-scroll" href="#about">See More</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="carousel-6">
+                <h2>Responsive Design</h2>
+                <p>Built on Bootstrap to ensure that the template will be equally beautiful on all devices, tablets, mobiles or desktops.</p>
+                <a class="btn btn-md page-scroll" href="#about">See More</a>
+                <a class="btn btn-md page-scroll" href="#about">Learn More</a>
+            </div>
+
+            <div class="carousel-6 img-container">
+                <img class="ipad" src="img/slider-intro/ipad.png" alt="ipad">
+                <img class="iphone" src="img/slider-intro/iPhone6.png" alt="iphone">
+            </div>
+        </li>
+        
+        <li>
+            <div class="carousel-6 img-container">
+                <img src="img/slider-intro/macbook.png" alt="macbook">
+            </div>
+             
+            <div class="carousel-6">
+                <h2>Presented in style</h2>
+                <p>This template is suitable for any company and/or direction that appreciates style, minimalism and quality.</p>
+                <a class="btn btn-md page-scroll" href="#about">Read More</a>
+                <a class="btn btn-md page-scroll" href="#about">Learn More</a>
+            </div>
+        </li>
+
+        <li class="video-bg">
+            <div class="carousel-12">
+                <h2>The Code Within</h2>
+                <p>Design is not the only thing that is easy on the eye, we kept the same style within the code.</p>
+                <a class="btn btn-md page-scroll" href="#about">Learn more</a>
+            </div>
+
+            <div class="video-wrapper" data-video="img/slider-intro/video/video-intro">
+            </div>
+        </li>
+
+        <li>
+            <div class="carousel-12">
+                <h2>Minimalism without compromises</h2>
+                <p>Minimal doesn't have to be empty or boring, our templates are as full of features as any other out there.</p>
+                <a class="btn btn-md page-scroll" href="#about">See More</a>
+                <a class="btn btn-md page-scroll" href="#about">Learn More</a>
+            </div>
+        </li>
+    </ul>
+
+    <div class="carousel-nav">
+        <nav>
+            <span class="carousel-marker item-1"></span>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </nav> 
+    </div>
+</section>
+<!-- intro section end -->
+                    </pre>
+                    
+                    <p>And here is the CSS set up. Just replace images with your own and change the styling if you wish. Done.</p>
+                    <pre class="brush: css; syntaxhighlighter">
+.intro-carousel {
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.intro-slider li {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro-slider li:first-of-type {
+    background-color: #222222;
+    background-image: url(../img/slider-intro/slide-02.jpg);
+}
+
+.intro-slider li:nth-of-type(2) {
+    background-color: #1f1f1f;
+    background-image: url(../img/slider-intro/slide-01.jpg);
+}
+
+.intro-slider li:nth-of-type(3) {
+    background-color: #121212;
+    background-image: url(../img/slider-intro/slide-04.jpeg);
+}
+
+.intro-slider li:nth-of-type(4) {
+    background-color: #222222;
+    background-image: url(../img/slider-intro/video/video-intro.jpg);
+}
+
+.intro-slider li:nth-of-type(5) {
+    background-color: #121212;
+    background-image: url(../img/slider-intro/slide-03.jpg);
+}
+
+.intro-slider .carousel-12,
+.intro-slider .carousel-6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.intro-slider .img-container {
+    display: none;
+}
+
+.intro-slider .img-container img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.intro-slider .img-container .ipad {
+    height: 100%;
+    left: 35%;
+}
+
+.intro-slider .img-container .iphone {
+    padding-top: 180px;
+    height: 100%;
+    left: 65%;
+}
+
+.intro-slider .video-wrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.intro-slider .video-wrapper video {
+    display: block;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+    
+.intro-slider .content {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    width: 100%;
+    height: 220px;
+}
+
+.intro-slider .caption .logo {
+    margin: 0 auto 5px;
+}
+
+.intro-slider .caption h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.intro-slider .caption p {
+    font-family: 'Poiret One', cursive;
+    color: #ffffff;
+    margin: 10px auto 10px;
+    font-size: 17px;
+}
+
+.intro-slider .caption h2 {
+    color: #d6d6d6;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.intro-slider .caption .btn {
+    margin: 5px auto 5px;
+}
+
+.intro-slider .btn.btn-lg {
+  	padding: 10px 22px;
+  	font-size: 10px;
+}
+    
+.intro-slider .caption .logo img {
+    width: 30px;
+    height: 60px;
+}
+
+.intro-slider h2, 
+.intro-slider p {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+    margin: 0 auto 14px;
+    color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+}
+
+.intro-slider h2 {
+    font-size: 18px;
+}
+
+.intro-slider p {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.intro-slider .btn:nth-of-type(2) {
+    margin-left: 1em;
+}
+
+.intro-slider .btn:hover,
+.intro-slider .btn:focus {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+}
+
+.intro-slider {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+}
+
+.intro-slider li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.intro-slider li.active {
+    position: relative;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.intro-slider li.move-left {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.intro-slider li.is-moving, .intro-slider li.active {
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.carousel-nav {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.carousel-nav li.active a {
+    color: #2c343b;
+}
+
+.no-touch .carousel-nav li.active a:hover {
+    background-color: transparent;
+}
+
+.carousel-nav li {
+    display: inline-block;
+    position: relative;
+    color: #a8b4be;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.carousel-nav .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 0;
+    background: #fff;
+} 
+
+.carousel-nav .carousel-indicators li.active {
+    width: 15px;
+    height: 17px;
+    background: #a58347;
+}
+
+/* js disabled */
+.no-js .intro-slider li {
+    display: none;
+}
+.no-js .intro-slider li.active {
+    display: block;
+}
+
+.no-js .intro-nav {
+    display: none;
+}
+
+                    </pre>
+                    
+                    <p>The js needed to have it running. This doesn't need any change unless you want to change the slide speed.</p>
+                    <pre class="brush: jscript; syntaxhighlighter">
+    
+    $(document).ready(function($){
+        var slidesWrapper = $('.intro-slider');
+
+        if ( slidesWrapper.length > 0 ) {
+            var carouselNav = $('.carousel-nav'),
+                navigationMarker = $('.carousel-marker'),
+                slidesNumber = slidesWrapper.children('li').length,
+                visibleSlidePosition = 0,
+                autoPlayId,
+                autoPlayDelay = 5000;
+
+            uploadVideo(slidesWrapper);
+            setAutoplay(slidesWrapper, slidesNumber, autoPlayDelay);
+		
+            carouselNav.on('click', 'li', function(event){
+                event.preventDefault();
+                var selectedItem = $(this);
+                if(!selectedItem.hasClass('active')) {
+                    var selectedPosition = selectedItem.index(),
+                        activePosition = slidesWrapper.find('li.active').index();
+				
+                    if( activePosition < selectedPosition) {
+                        nextSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, selectedPosition);
+                    } else {
+                        prevSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, selectedPosition);
+                    }
+
+                    visibleSlidePosition = selectedPosition;
+
+                    updateSliderNavigation(carouselNav, selectedPosition);
+                    updateNavigationMarker(navigationMarker, selectedPosition+1);
+                    setAutoplay(slidesWrapper, slidesNumber, autoPlayDelay);
+                }
+            });
+        }
+
+        function nextSlide(visibleSlide, container, pagination, n){
+            visibleSlide.removeClass('active from-left from-right').addClass('is-moving').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+                visibleSlide.removeClass('is-moving');
+		});
+
+            container.children('li').eq(n).addClass('active from-right').prevAll().addClass('move-left');
+            checkVideo(visibleSlide, container, n);
+        }
+
+        function prevSlide(visibleSlide, container, pagination, n){
+            visibleSlide.removeClass('active from-left from-right').addClass('is-moving').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+                visibleSlide.removeClass('is-moving');
+            });
+
+            container.children('li').eq(n).addClass('active from-left').removeClass('move-left').nextAll().removeClass('move-left');
+            checkVideo(visibleSlide, container, n);
+        }
+
+        function updateSliderNavigation(pagination, n) {
+            var navigationDot = pagination.find('.active');
+            navigationDot.removeClass('active');
+            pagination.find('li').eq(n).addClass('active');
+        }
+
+        function setAutoplay(wrapper, length, delay) {
+            if(wrapper.hasClass('autoplay')) {
+                clearInterval(autoPlayId);
+                autoPlayId = window.setInterval(function(){autoplaySlider(length)}, delay);
+            }
+        }
+
+        function autoplaySlider(length) {
+            if( visibleSlidePosition < length - 1) {
+                nextSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, visibleSlidePosition + 1);
+                visibleSlidePosition +=1;
+            } else {
+                prevSlide(slidesWrapper.find('.active'), slidesWrapper, carouselNav, 0);
+                visibleSlidePosition = 0;
+            }
+            updateNavigationMarker(navigationMarker, visibleSlidePosition+1);
+            updateSliderNavigation(carouselNav, visibleSlidePosition);
+        }
+
+        function uploadVideo(container) {
+            container.find('.video-wrapper').each(function(){
+                var videoWrapper = $(this);
+                if( videoWrapper.is(':visible') ) {
+                    var	videoUrl = videoWrapper.data('video'),
+                        video = $('<video loop><source src="'+videoUrl+'.mp4" type="video/mp4" /><source src="'+videoUrl+'.webm" type="video/webm" /><source src="'+videoUrl+'.ogv" type="video/ogv" /></video>');
+                    video.appendTo(videoWrapper);
+                    if(videoWrapper.parent('.video-bg.active').length > 0) video.get(0).play();
+                }
+            });
+        }
+
+        function checkVideo(hiddenSlide, container, n) {
+            var hiddenVideo = hiddenSlide.find('video');
+            if( hiddenVideo.length > 0 ) hiddenVideo.get(0).pause();
+
+            var visibleVideo = container.children('li').eq(n).find('video');
+            if( visibleVideo.length > 0 ) visibleVideo.get(0).play();
+        }
+
+        function updateNavigationMarker(marker, n) {
+            marker.removeClassPrefix('item').addClass('item-'+n);
+        }
+
+        $.fn.removeClassPrefix = function(prefix) {
+            this.each(function(i, el) {
+                var classes = el.className.split(" ").filter(function(c) {
+                    return c.lastIndexOf(prefix, 0) !== 0;
+                });
+                el.className = $.trim(classes.join(" "));
+            });
+            return this;
+        };
+    });
+                </pre>
+                    
+				</div>
+			</li>
+		</ul>
+
+        <ul id="portfolio" class="faq-group">
+			<li class="faq-title"><h2>Portfolio Settings</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">Image Filter Plugin</a>
+                <div class="faq-content">
+					<p>Image filtering with data filter is done by the Isotope plugin.</p>
+                    <br>
+                    <p>HTML</p>
+                    <pre class="brush: html; syntaxhighlighter">
+                    
+                    <div class="container">
+                        <div class="portfolio-filter">
+                            <ul class="portfolio-nav wow fadeIn data-wow-delay-02s">
+                                <li><a href="#" data-filter="*" class="current" >All</a></li>
+                                <li><a href="#" data-filter=".branding" >Branding &amp; Identity</a></li>
+                                <li><a href="#" data-filter=".webdesign" >Web design</a></li>
+                                <li><a href="#" data-filter=".mobileappsdesign" >Mobile Apps Design</a></li>
+                                <li><a href="#" data-filter=".graphicdesign" >Graphic Design</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+
+                    </pre>
+                    
+                    <p>JS</p>
+                    <pre class="brush: jscript; syntaxhighlighter">
+                    
+    $(window).load(function(){
+    
+        var container = $('.portfolio-container'); // portfoolio container
+
+        container.isotope({
+            itemSelector: '.portfolio-item',
+            animationEngine: 'best-available',
+            animationOptions: {
+            duration: 200,
+            queue: false
+            },
+            layoutMode: 'fitRows'
+        });
+
+        // sort items on button click
+        $('.portfolio-filter a').click(function() {
+            $('.portfolio-filter .current').removeClass('current');
+            $(this).addClass('current');
+            var selector = $(this).attr('data-filter');
+            container.isotope({
+                filter: selector,
+            });
+            return false;
+        });
+        
+        // Split columns for different size layout
+        function splitColumns() {
+            var windowWidth = $(window).width(),
+                columnNumber = 1; //  default column number
+            if (windowWidth > 1200) {
+                columnNumber = 4;
+            } else if (windowWidth > 767) {
+                columnNumber = 3;
+            } else if (windowWidth > 600) {
+                columnNumber = 2;
+            }
+            return columnNumber;
+        }
+        // Set width for portfolio item
+        function setColumns() {
+            var windowWidth = $(window).width(),
+                columnNumber = splitColumns(),
+                postWidth = Math.floor(windowWidth / columnNumber);
+
+            container.find('.portfolio-item').each(function() {
+                $(this).css({
+                    width: postWidth + 'px'
+                });
+            });
+        }
+        // initialize isotope
+        function initIsotope() {
+            setColumns();
+            container.isotope('layout');
+        }
+        container.imagesLoaded(function() {
+            setColumns();
+        });
+        $(window).bind('resize', function() {
+            initIsotope();
+        });
+        initIsotope();
+  
+    });
+}   
+
+                    </pre>
+                    
+                    <p>CSS</p>
+                    <pre class="brush: css; syntaxhighlighter">
+                    
+/* ---- isotope ---- */
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.6s;
+        -moz-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+        -moz-transition-property:    -moz-transform, opacity;
+            transition-property:         transform, opacity;
+}   
+
+                    </pre>
+                    
+				</div>
+			</li>
+
+			<li>
+				<a class="faq-trigger" href="#0">Portfolio Thumbs</a>
+				<div class="faq-content">
+					<p>Just replace the image links with your own and you are ready to go. Try to keep the same image dimension for all images.</p>
+                    <pre class="brush: html; syntaxhighlighter">
+                    
+        <div class="portfolio-container wow fadeInUp data-wow-delay-04s">
+        <div class="portfolio-item branding">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_01.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i>
+                            <p>Static</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-item branding">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_02.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i>
+                            <p>Pub Logo</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-item mobileappsdesign">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_03.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i>
+                            <p>Videora</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-item graphicdesign">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_04.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i><br>
+                            <p>Devotion</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-item branding">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_05.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i>
+                            <p>Korus</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-item graphicdesign">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_06.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i><br>
+                            <p>Guide Covers</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-item graphicdesign">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_07.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i>
+                            <p>Movie Poster</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+        <div class="portfolio-item mobileappsdesign">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_08.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i>
+                            <p>Social App</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+
+                    </pre>
+
+				</div>
+			</li>
+                
+            <li>
+				<a class="faq-trigger" href="#0">Portfolio Modal Windows</a>
+				<div class="faq-content">
+					<p>Modal windows are part of the Bootstrap Framework so if you need more info on how modal windows work please, visit Twitter's Bootstrap website. Every portfolio work has its own modal window as you see below.</p>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+                    
+        <div class="portfolio-item webdesign">
+            <div class="item-wrap">
+                <a data-toggle="modal" data-target="#portfolioModal1" title="">
+                    <img alt="" src="img/portfolio/portfolio_10.jpg">
+                    <div class="overlay">
+                        <div class="portfolio-item-meta">
+                            <i class="pe-7s-search"></i><br>
+                            <p>Portfolio Title</p>
+                        </div>
+                    </div>
+                    <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+            </div>
+        </div>
+                                        
+                    </pre>
+                    
+                    
+                    <p>This is the part that activates the modal windows</p>
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+                    
+                <a data-toggle="modal" data-target="#portfolioModal1" title=""></a>
+                                        
+                   
+                   </pre>
+                    
+                    
+                    <p>The modal window code is placed at the end of the html file. We only added one but you will need to add one modal window for every portfolio work you will have. You will also need to give it a name such as "portfolioModal1". Then link this to your portfolio as you see above ("data-target"). And that's it for modal windows.</p>
+                    <pre class="brush: css; syntaxhighlighter">
+                    
+    <!-- portfolio modal start -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <h2>Portfolio</h2>
+                    <p class="item-date">May 05, 2015</p>
+                    <img class="img-responsive" src="img/portfolio/large/portfolio-modal-01.jpg" alt="">
+                    <img class="img-responsive" src="img/portfolio/large/portfolio-modal-02.jpg" alt="">
+                    <img class="img-responsive" src="img/portfolio/large/portfolio-modal-03.jpg" alt="">
+                    <p>Fusce in velit sed orci ultricies semper ac sed lacus. Nam a nisl nibh. Quisque auctor elit ac ante tempor, feugiat egestas justo auctor. Etiam et dolor sit amet ligula lobortis malesuada. Aenean aliquet blandit justo, sit amet feugiat massa elementum dignissim. Nam fermentum pellentesque nulla, ut consectetur sapien rutrum et. Praesent gravida auctor velit, fermentum suscipit enim ultricies at. Nulla facilisi.</p>   
+                    <div class="visit-link">
+                        <a href="#" class="btn btn-xlg" target="_blank">See it here</a>
+                    </div>
+                  
+                    <div class="member-social">
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="close-btn" data-dismiss="modal"><a href=""><i class="pe-7s-close"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio modal end -->
+
+                    </pre>
+                    
+				</div>
+			</li>
+            
+		</ul>
+        
+        <ul id="contact" class="faq-group">
+			<li class="faq-title"><h2>Contact</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">Setting up Contact Form</a>
+				<div class="faq-content">
+                
+                
+                    <p>The PHP Script "send-mail.php" is for sending messages to your email by using the Contact Form.</p>
+                    
+                    
+                    <pre class="brush: php; syntaxhighlighter">
+                    
+<?php
+
+/* ==============================================
+Variables you can change
+============================================== */
+
+$mailto = 'youremail@youremail.com'; // Enter your mail addres here. 
+$subject = 'yourwebsite'; // Enter the subject here.
+
+$error_message = 'Error sending your message, please, check your email and try again'; // Message displayed if an error occurs
+$success_message = 'Message Sent'; // Message displayed id the email has been sent successfully
+
+/* ==============================================
+Do not modify anything below
+============================================== */
+
+$frm_name = stripcslashes($_POST['name']);
+$frm_email = stripcslashes($_POST['email']);
+$frm_message = stripcslashes($_POST['message']);
+
+
+$message = "Name: $frm_name\r\nEmail: $frm_email\r\nMessage: $frm_message";
+
+$headers = "From: $frm_name <$frm_email>" . "\r\n" . "Reply-To: $frm_email" . "\r\n" . "X-Mailer: PHP/" . phpversion();
+
+function validateEmail($email) {
+   if(preg_match("/^[_\.0-9a-zA-Z-]+@([0-9a-zA-Z][0-9a-zA-Z-]+\.)+[a-zA-Z]{2,6}$/i", $email))
+	  return true;
+   else
+	  return false;
+}
+
+if((strlen($frm_name) < 1 ) || (strlen($frm_email) < 1 ) || (strlen($frm_message) < 1 ) || validateEmail($frm_email) == FALSE ) {
+
+	echo($error_message);
+
+} else {
+
+	if( mail($mailto, $subject, $message, $headers) ) {
+		
+		echo($success_message);
+
+	} else {
+
+		echo($error_message);
+
+	}
+
+}
+
+?>
+                    
+                    </pre>
+                    
+                    <p>This is the line you need to change for contact form to work properly</p>
+                    <pre class="brush: php; syntaxhighlighter">
+                                                    
+                       $mailto = 'youremail@youremail.com'; // Enter your mail addres here. 
+
+                    </pre>
+                    <br>
+                    <p>You can also edit the subject of the message.</p>
+                    <pre class="brush: php; syntaxhighlighter">
+                                                    
+                       $subject = 'Subject'; 
+
+                    </pre> 
+                    <br>
+                    <p>Also if you wish go ahead and change the error and success message.</p>
+                    <pre class="brush: php; syntaxhighlighter">
+           
+                       $error_message = 'There was an error sending your message: please check your entry and try again!';
+                       
+                       $success_message = 'Message Sent';
+                       
+                    </pre> 
+				</div>
+			</li>
+                
+			<li>
+				<a class="faq-trigger" href="#0">Google Map Setup</a>
+				<div class="faq-content">
+                
+                
+                    <p>Setting up the google map is very straigtforward. All you have to do is change the coordinates and also change the text. Here is the map section with the address to change.</p>
+                    
+                    
+                    <pre class="brush: html; syntaxhighlighter">
+                    
+<!-- gmap section start -->
+<section id="map" class="map">
+    <div id="gmap_canvas"></div>
+    <address>643 6th Avenue, New York, 10011, USA, 01 3666 6395</address> 
+</section>
+<!-- gmap section end -->
+                    
+                    </pre>
+                    
+                    <p>And this is where you change the coordinates and also the text.</p>
+                    <pre class="brush: html; syntaxhighlighter">
+                                                    
+<!-- Gmap  -->
+<script>
+    function init_map() {
+        var isDraggable = $(document).width() > 768 ? true : false; // If website is wider than 480px, isDraggable = true, else isDraggable = false
+        var myOptions = {
+            zoom: 16,
+            center: new google.maps.LatLng(40.740960, -73.994392), //change the coordinates
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false,
+            streetViewControl: false,
+            zoomControl: false,
+            panControl: false,
+            draggable: isDraggable,
+            disableDefaultUI: true,
+            styles: [{featureType:'all',stylers:[{saturation:-100},{gamma:0.50}]}]
+        };
+        map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+        marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(40.740960, -73.994392) //change the coordinates
+        });
+        infowindow = new google.maps.InfoWindow({
+        content: "<b>Empire</b><br/>643 6th Avenue<br/>New York<br/>10011<br/>USA"  //add your address
+        });
+        google.maps.event.addListener(marker, "click", function () {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);  
+    }
+    google.maps.event.addDomListener(window, 'load', init_map); 
+</script>
+
+                    </pre>
+                    <br>
+                    <p>There are two fields to change the coordinates so make sure to change them both.</p>
+                    <pre class="brush: html; syntaxhighlighter">
+                                                    
+                                center: new google.maps.LatLng(40.740960, -73.994392), //change the coordinates
+                                
+                                
+                                position: new google.maps.LatLng(40.740960, -73.994392) //change the coordinates
+
+                    </pre> 
+                    <p>And that's it.</p>
+				</div>
+			</li>
+		</ul>
+                    
+        <ul id="newsletter" class="faq-group">
+			<li class="faq-title"><h2>Subscription Set Up</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">Setting up Newsletter/Subscribe Form</a>
+				<div class="faq-content">
+                    <p>This Template comes with a MailChimp newsletter/subscription from. Here is the form: </p>
+                    
+                    <pre class="brush: css; syntaxhighlighter">
+
+<section class="section-main" id="newsletter">
+    <div class="container-fluid wow fadeInUp data-wow-delay-04s">
+        <div class="col-md-6 col-md-offset-3">
+            <form class="subscriptionForm" method="post" id="mc-form">
+                <h1 name="" value="">NEWSLETTER FORM</h1>
+                <p name="" value="">Subscribe to our newsletter and receive our latest updates</p>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <input type="submit" value="subscribe" name="subscribe" class="button">
+                <label for="mce-EMAIL" class="subscribe-message"></label>
+            </form>
+        </div>
+    </div>
+</section>
+                    
+                    </pre>
+                    
+                    <p>This doesn't require much to have it up and running. All you have to do is to create a MailChimp account and then create a new subscription form using MailChimp. Then you will need the subscription's form URL. To obtain it please, check <a href="https://docs.shopify.com/manual/configuration/store-customization/communicating-with-customers/accounts-and-newsletters/get-a-mailchimp-form-action-url" target="_blank">this link</a> for more info. For example, here is our subscription template URL: </p>
+                    <pre class="brush: jscript; syntaxhighlighter">
+                                                    
+	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
+	var mailChimpURL = 'http://codeandsquare.us11.list-manage.com/subscribe/post?u=2a14dee51c1c79d79d01d17b3&amp;id=da88437b43'
+
+                    </pre>
+                    
+                    <p>Here is the rest of the code:</p>
+                    <pre class="brush: php; syntaxhighlighter">
+                                                    
+	$('#mc-form').ajaxChimp({
+
+		language: 'es',
+	   url: mailChimpURL
+
+	});
+
+	// Mailchimp translation
+	//
+	//  Defaults:
+	//	 'submit': 'Submitting...',
+	//  0: 'We have sent you a confirmation email',
+	//  1: 'Please enter a value',
+	//  2: 'An email address must contain a single @',
+	//  3: 'The domain portion of the email address is invalid (the portion after the @: )',
+	//  4: 'The username portion of the email address is invalid (the portion before the @: )',
+	//  5: 'This email address looks fake or invalid. Please enter a real email address'
+
+	$.ajaxChimp.translations.es = {
+	  'submit': 'Submitting...',
+	  0: '<i class="fa fa-check"></i> We have sent you a confirmation email',
+	  1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
+	  2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+	  3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+	  4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
+	  5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
+	}
+
+                    </pre>
+                    <br>
+                    <p>And the form's CSS styling:</p>
+                    <pre class="brush: css; syntaxhighlighter">
+                                                    
+#newsletter {
+    background-color: #333333;
+    padding: 40px 0 40px; 
+}
+
+#newsletter h1 { 
+    display: block; 
+    font-size: 25px; 
+    color: #f1f1f1;
+    margin-bottom: 10px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    margin-top: 40px; 
+    letter-spacing: 1px; 
+}
+
+#newsletter p { 
+    display: block; 
+    font-size: 16px; 
+    color: rgba(141, 141, 141, 0.87);
+    margin-bottom: 40px; 
+    font-weight: 300; 
+    margin-top: 20px; 
+    letter-spacing: 1px; 
+}
+
+#newsletter input::-webkit-input-placeholder,
+#newsletter textarea::-webkit-input-placeholder {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(141, 141, 141, 0.87);
+}
+
+#newsletter input[type="email"] { 
+    background-color: #333333;  
+    padding: 50px; 
+    width: 100%; 
+    color: #ffffff; 
+    border: 0;
+	border-bottom: 1px solid #ae895d;
+    outline: 0;
+}
+
+#newsletter input[type="submit"] {
+    background-color: #333333; 
+    border: 0;
+    width: 100%; 
+    padding-top: 50px;
+    color: #ffffff; 
+    text-transform: uppercase; 
+    letter-spacing: 3px;
+    outline: 0;
+}
+
+#newsletter input[type="submit"]:hover { 
+    color: #ae895d;
+    -webkit-transition: all 0.6s linear;
+       -moz-transition: all 0.6s linear;
+         -o-transition: all 0.6s linear;
+            transition: all 0.6s linear;
+}
+
+#newsletter label {
+    text-align: center;
+    padding: 40px 0 0;
+	clear: both;
+	display: block;
+	width: 100%;
+	min-height: 30px;
+	font-family: "montserrat-regular", sans-serif;
+	color: #ffffff;
+}
+
+#newsletter label .fa-check {
+	color: #3ffc72;
+	margin-right: 5px;
+}
+
+#newsletter label .fa-warning {
+	color: #fc3f3f;
+	margin-right: 5px;
+}
+
+                    </pre> 
+                    <br>
+                    <p>And that's it. Very easy and a great way to communicate with your customers.</p>
+				</div>
+			</li>
+		</ul>
+                    
+        <ul id="twitter" class="faq-group">
+			<li class="faq-title"><h2>Twitter Feed Set Up</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">How to set up your Username</a>
+				<div class="faq-content">
+					<p>
+ * Go to www.twitter.com and sign in as normal, go to your settings page.
+ * Go to "Widgets" on the left hand side.
+ * Create a new widget for what you need eg "user time line" or "search" etc.
+ * Feel free to check "exclude replies" if you don't want replies in results.
+ * Now go back to settings page, and then go back to widgets page and
+ * you should see the widget you just created. Click edit.
+ * Look at the URL in your web browser, you will see a long number like in our case:
+ * 618057979213049856
+ */
+                    </p>
+                    <br>
+                    <p>And this is the javascript where the number needs to be added. Also, change the other settings if you like, for example; maxTweets, showUser, showTime, enableLinks etc.</p>
+                    <pre class="brush: jscript; syntaxhighlighter">
+
+<!-- twitter fetcher  -->
+<script>
+    var LatestTweets = {
+        init: function () {
+            twitterFetcher.fetch({
+                id: '618057979213049856', 
+                domId: 'tweets',
+                maxTweets: 3,
+                enableLinks: true,
+                showUser: true,
+                showTime: true,
+                dateFunction: '',
+                showRetweet: false,
+                showInteraction: false,
+                linksInNewWindow: true,
+            });
+        }
+    };
+
+    LatestTweets.init();
+</script>
+
+                    </pre>
+                    <br>
+                    
+                                        <br>
+                    <p>This is the HTML part responsible for showing your twitter tweets.</p>
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- twitter section start -->
+<section class="section-main" id="twitter">
+    <div class="container">
+        <p class="title">Latest Tweets</p>
+        <hr class="style-three">
+        <p class="sub-title">Subscribe to our Twitter feed</p>
+    </div>
+    <div class="container wow fadeInUp data-wow-delay-08s">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="tweet-text" id="tweets"></div>
+        </div>
+    </div>
+</section>
+<!-- twitter section end -->
+
+                    </pre>
+                    <br>
+
+                    <p>Your Twitter Feed should now be working.</p>
+				</div>
+			</li>
+		</ul>
+                    
+        <ul id="shortcodes" class="faq-group">
+        <li class="faq-title"><h2>Shortcodes</h2></li>
+                
+			<li>
+				<a class="faq-trigger" href="#0">Headings</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- headings section start -->
+<section class="section-main text-center" id="headings">
+    <div class="container">
+        <div class="row">
+            <h1 class="title">Headings</h1>
+            <hr class="style-one">
+        </div>
+    </div>
+    <div class="container">
+        <h1>H1 <span class="bold">Highlighted</span> Heading</h1>
+        <h2>H2 <span class="bold">Highlighted</span> Heading</h2>
+        <h3>H3 <span class="bold">Highlighted</span> Heading</h3>
+        <h4>H4 <span class="bold">Highlighted</span> Heading</h4>
+        <h5>H5 <span class="bold">Highlighted</span> Heading</h5>
+        <h6>H6 <span class="bold">Highlighted</span> Heading</h6>
+        <h7>H7 <span class="bold">Highlighted</span> Heading</h7>
+    </div>
+</section>
+<!-- headings section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    letter-spacing: 1px;
+}
+
+h1 { 
+    margin: 0 0 25px 0;
+    font-size: 56px; 
+    font-weight: 300; 
+    display: block; 
+	text-transform: uppercase; 
+} 
+
+h2 { 
+    margin: 0 0 25px 0;
+    font-size: 42px; 
+    font-weight: 300; 
+    display: block; 
+	text-transform: uppercase; 
+} 
+
+h3 { 
+    font-size: 34px; 
+    font-weight: 400; 
+    margin: 0 0 5px 0;
+    display: block; 
+} 
+
+h4 { 
+    margin: 0 0 25px 0;
+    font-size: 28px; 
+    font-weight: 300; 
+    display: block; 
+} 
+
+h5 { 
+    margin: 0 0 25px 0;
+    font-size: 24px;
+    font-weight: 300; 
+    display: block; 
+}
+
+h6 { 
+    font-size: 20px; 
+    font-weight: 400; 
+    display: block; 
+    margin: 0 0 60px 0;
+}
+
+h7 { 
+    font-size: 17px; 
+    font-weight: 500; 
+    display: block; 
+    margin: 0 0 50px 0;
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Accordion</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- accordion section start -->
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <h1 class="title">Accordion</h1>
+            <hr class="style-one">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <div class="panel-title">
+                                <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseOne">
+                                    <strong>Fusce vulputate aliquam imperdiet</strong>
+                                </a>
+                            </div>
+                        </div> <!-- *** end panel-heading *** -->
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus urna, tristique quis eros sit amet, interdum hendrerit nisl. In a odio ultricies eros mattis egestas vitae nec libero. Praesent sagittis efficitur dui, malesuada ullamcorper urna tristique id. Phasellus vehicula ullamcorper leo, quis scelerisque arcu laoreet vel. Fusce id euismod ex. Fusce vulputate aliquam imperdiet. Nunc sit amet nibh eu sapien dictum blandit id non dui.
+                            </div>
+                        </div> <!-- *** end collapsed item *** -->
+                    </div> <!-- *** end panel *** -->
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <div class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <strong>Nunc sit amet nibh eu sapien dictum blandit id non dui</strong>
+                                </a>
+                            </div>
+                        </div> <!-- *** end panel-heading *** -->
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus urna, tristique quis eros sit amet, interdum hendrerit nisl. In a odio ultricies eros mattis egestas vitae nec libero. Praesent sagittis efficitur dui, malesuada ullamcorper urna tristique id. Phasellus vehicula ullamcorper leo, quis scelerisque arcu laoreet vel. Fusce id euismod ex. Fusce vulputate aliquam imperdiet. Nunc sit amet nibh eu sapien dictum blandit id non dui.
+                            </div>
+                        </div> <!-- *** end collapsed item *** -->
+                    </div> <!-- *** end panel *** -->
+                
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <div class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <strong>Praesent sagittis efficitur dui, malesuada ullamcorper urna tristique</strong>
+                                </a>
+                            </div>
+                        </div> <!-- *** end panel-heading *** -->
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus urna, tristique quis eros sit amet, interdum hendrerit nisl. In a odio ultricies eros mattis egestas vitae nec libero. Praesent sagittis efficitur dui, malesuada ullamcorper urna tristique id. Phasellus vehicula ullamcorper leo, quis scelerisque arcu laoreet vel. Fusce id euismod ex. Fusce vulputate aliquam imperdiet. Nunc sit amet nibh eu sapien dictum blandit id non dui.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- accordion section end -->
+
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+/* ---- Accordion ---- */
+
+.panel {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.panel-body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.panel-default > .panel-heading {
+    background: #ae895d;
+    color: #f3eff0;
+    cursor: pointer;
+}
+.panel-heading {
+    padding: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-title > a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.collapsed {
+    background: #ededed !important;
+    color: #222;
+    border: none;
+}
+
+.collapsed strong,
+.collapsed .state {
+    color: #222222;
+}
+
+.state {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Tabs</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- tabs section start -->
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <h1 class="title">TABS</h1>
+            <hr class="style-one">
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="features-container">
+                <ul class="col-lg-12 col-md-12 featured-tabs">
+                    <li class="col-md-2 active wow slideInLeft data-wow-delay-06s">
+                        <a href="#tab1" data-toggle="tab">
+                            <div class="tab-icon"><i class="pe-7s-diamond"></i></div>
+                        </a>
+                    </li>
+                    <li class="col-md-2 wow slideInLeft data-wow-delay-04s">
+                        <a href="#tab2" data-toggle="tab">
+                            <div class="tab-icon"><i class="pe-7s-edit"></i></div>
+                        </a>
+                    </li>
+                    <li class="col-md-2 wow slideInLeft data-wow-delay-02s">
+                        <a href="#tab3" data-toggle="tab">
+                            <div class="tab-icon"><i class="pe-7s-like"></i></div>
+                        </a>
+                    </li>
+                    <li class="col-md-2 wow slideInRight data-wow-delay-02s">
+                        <a href="#tab4" data-toggle="tab">
+                            <div class="tab-icon"><i class="pe-7s-plugin"></i></div>
+                        </a>
+                    </li>
+                    <li class="col-md-2 wow slideInRight data-wow-delay-04s">
+                        <a href="#tab5" data-toggle="tab">
+                            <div class="tab-icon"><i class="pe-7s-tools"></i></div>
+                        </a>
+                    </li>
+                    <li class="col-md-2 wow slideInRight data-wow-delay-06s">
+                        <a href="#tab6" data-toggle="tab">
+                            <div class="tab-icon"><i class="pe-7s-rocket"></i></div>
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="col-lg-12 col-md-12 tab-content wow slideInRight data-wow-delay-02s">
+                    <div class="tab-pane active" id="tab1">
+                        <div class="tab-info">
+                            <p class="tab-header">Cleab and minimal design</p>
+                            <p class="tab-text">Curabitur ultricies arcu vel enim efficitur porttitor. Donec lacinia, nisl nec iaculis blandit, sem arcu feugiat arcu, at hendrerit justo mi nec neque. Donec vitae varius felis.</p>
+                        </div>
+                        <img src="img/features/tab-01.png" class="img-responsive" data-animation="fadeInLeft" alt=""/>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <div class="tab-info">
+                            <p class="tab-header">Adjust the template to your liking</p>
+                            <p class="tab-text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst. Phasellus ipsum nulla, auctor ac viverra a, porttitor eu urna.</p>
+                        </div>
+                        <img src="img/features/tab-02.png" class="img-responsive" data-animation="fadeInLeft" alt=""/>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                        <div class="tab-info">
+                            <p class="tab-header">People will fall in love with your website</p>
+                            <p class="tab-text">Quisque vel orci sed leo dignissim ullamcorper et vitae nibh. Mauris dictum auctor nisl non elementum. Mauris fringilla sapien vitae enim condimentum, eget posuere leo congue.</p>
+                        </div>
+                        <img src="img/features/tab-03.png" class="img-responsive" data-animation="fadeInLeft" alt=""/>
+                    </div>
+                    <div class="tab-pane" id="tab4">
+                        <div class="tab-info">
+                            <p class="tab-header">Code with clarity and simplicity</p>
+                            <p class="tab-text">Phasellus magna neque, iaculis et posuere at, lacinia vel libero. Cras fringilla viverra mi at dictum. Vivamus pellentesque dictum sapien, a luctus nunc condimentum ac.</p>
+                        </div>
+                        <img src="img/features/tab-04.png" class="img-responsive" data-animation="fadeInLeft" alt=""/>
+                    </div>
+                    <div class="tab-pane" id="tab5">
+                        <div class="tab-info">
+                            <p class="tab-header">Many different setting and options</p>
+                            <p class="tab-text">Fusce rutrum euismod mollis. Sed in malesuada dui. Pellentesque vehicula lectus a urna efficitur fringilla. Nunc eu tortor non elit lacinia sollicitudin.</p>
+                        </div>
+                        <img src="img/features/tab-05.png" class="img-responsive" data-animation="fadeInLeft" alt=""/>
+                    </div>
+                    <div class="tab-pane" id="tab6">
+                        <div class="tab-info">
+                            <p class="tab-header">You dont need to be a rocket scientist</p>
+                            <p class="tab-text">Morbi ut dignissim metus. Duis velit augue, interdum in dui ut, vehicula bibendum sem. Pellentesque in nunc vel turpis dapibus tempus a nec ligula. Vivamus accumsan ut urna non ornare.</p>
+                        </div>
+                        <img src="img/features/tab-06.png" class="img-responsive" data-animation="fadeInLeft" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- tabs section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+/* ----  Tabs ---- */
+.nav-tabs {
+    border-bottom: 1px solid #222222;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 25px;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+    background: #fff;
+    border-color: #222222 #222222 #ffffff;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    cursor: default;
+    background-color: #222222;
+    border: 1px solid #222222;
+    border-bottom-color: transparent;
+}
+.nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+    float: none;
+}
+.nav-tabs.nav-justified > li > a {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+
+.tab-content > .tab-pane {
+    line-height: 20px;
+    margin: 12px;
+    display: none;
+}
+.tab-content > .active {
+    display: block;
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Pricelist</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- pricelist section start -->
+<section class="pricelist-container" id="pricelist">
+    <div class="content-area">
+        <div class="container">
+            <p class="title">PRICELIST</p>
+            <hr class="style-one">
+        </div>
+        <div class="container">
+            <div class="pricing-tables">
+                <div class="plan small plan-glow wow slideInLeft data-wow-delay-08s">
+                    <div class="head">
+                        <h3>Students</h3>
+                    </div>
+                    <div class="price">
+                        <span class="price-main"><span class="symbol">€</span>8</span>
+                        <span class="month">per month</span>
+                        <span class="price-additional">96€ / year</span>
+                    </div>
+                    <ul class="item-list">
+                        <li>Personal License</li>
+                    </ul>
+                    <hr>
+                    <div class="btn btn-default">BUY NOW</div>
+                </div>
+                <div class="plan plan-glow wow slideInLeft data-wow-delay-04s">
+                    <div class="head">
+                        <h3>Professionals</h3> </div>
+                    <div class="price">
+                        <span class="price-main"><span class="symbol">€</span>19</span>
+                        <span class="month">per month</span>
+                        <span class="price-additional">228€ / year</span>
+                    </div>
+                    <ul class="item-list">
+                        <li>Professional License</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <hr>
+                    <div class="btn btn-default">BUY NOW</div>
+                </div>
+                <div class="plan recommended plan-glow wow fadeInDown data-wow-delay-08s">
+                    <div class="head">
+                        <h3>agency</h3> </div>
+                    <div class="price">
+                        <span class="price-main"><span class="symbol">€</span>49</span>
+                        <span class="month">per month</span>
+                        <span class="price-additional">588€ / year</span>
+                    </div>
+                    <ul class="item-list">
+                        <li>1-12 Team Members</li>
+                        <li>Phone Support</li>
+                    </ul>
+                    <hr>
+                    <div class="btn btn-default">BUY NOW</div>
+                </div>
+                <div class="plan small plan-glow wow slideInRight data-wow-delay-04s">
+                    <div class="head">
+                        <h3>enterprise</h3> </div>
+                    <div class="price">
+                        <span class="price-main"><span class="symbol">€</span>79</span>
+                        <span class="month">per month</span>
+                        <span class="price-additional">948€ / year</span>
+                    </div>
+                    <ul class="item-list">
+                        <li>Unlimited Team Members</li>
+                        <li>24/ 7 Phone Support</li>
+                    </ul>
+                    <hr>
+                    <div class="btn btn-default">BUY NOW</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- pricelist section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+#pricelist {
+    background: #f1f1f1;
+    text-align: center; 
+}
+
+#pricelist .content-area {
+    position: relative;
+    overflow: hidden;
+    padding: 90px 0 70px;
+    line-height: 1.5;
+    color: #ffffff; 
+}
+
+#pricelist .content-area > .container {
+    position: relative;
+    z-index: 1; 
+}
+
+#pricelist .content-area > .container > p {
+    margin: 0 120px 5px; 
+}
+
+#pricelist .content-area + .content-area {
+    padding: 70px 0; 
+}
+
+#pricelist .content-area + .content-area:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 180px;
+    right: 180px;
+    height: 1px;
+    background: rgba(102, 74, 102, 0.6); 
+}
+
+#pricelist .pricing-tables {
+    padding: 0 0 25px;
+    font-size: 0;
+    letter-spacing: 4px;
+    white-space: nowrap; 
+}
+
+#pricelist .pricing-tables h3 {
+    font-size: 30px;
+    line-height: 3;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f1f1f1; 
+}
+
+#pricelist .plan {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    border: 1px solid #464646;
+    border-radius: 0;
+    min-height: 100px;
+    margin: 50px 0px 50px 1px;
+    padding: 0 10px 35px;
+    font-size: 5px;
+    letter-spacing: 0;
+    white-space: normal;
+    text-align: center;
+    background: #464646;
+    color: #f1f1f1; 
+}
+
+#pricelist .plan .head {
+    padding: 8px 0 30px; 
+}
+
+#pricelist .plan.small .head {
+    padding: 0px 0 15px; 
+}
+
+#pricelist .plan.recommended .head {
+    padding: 12px 0 32px; 
+}
+
+#pricelist .plan .price {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+#pricelist .price .price-main {
+    display: block;
+    padding: 0 0 15px;
+    font-size: 120px;
+    color: #ae895d;
+    vertical-align: top;
+    line-height: 1;
+    white-space: nowrap; 
+}
+#pricelist .recommended .price .price-main {
+    font-size: 120px; 
+}
+
+#pricelist .price .price-main .symbol {
+    font-size: 2.6rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 7px 0 0;
+    position: relative; 
+}
+
+#pricelist .recommended .price .price-main .symbol {
+    font-size: 3.2rem;
+}
+
+#pricelist .price .month {
+    font-size: 15px;
+    letter-spacing: 6px; 
+}
+
+#pricelist .recommended .price .month {
+    font-size: 18px; 
+}
+#pricelist .price .price-additional {
+    color: #f1f1f1;
+    display: block;
+    padding: 25px 0 30px;
+    font-weight: normal;
+    font-size: 1.4rem; 
+}
+
+#pricelist .recommended .price .price-additional {
+    padding: 28px 0 40px; 
+}
+
+#pricelist .btn {
+    color: #ae895d;
+    background: transparent;
+    height: 40px;
+    font-size: 30px;
+    border: 0px;
+    width: 100%;
+    border-radius: 0px;
+    line-height: 1.8;
+    padding: 8px 0;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+
+#pricelist .btn:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+#pricelist .recommended .btn {
+    padding: 8px 0;
+    height: 40px;
+    font-size: 40px;
+    line-height: 1.7;
+    margin-bottom: 7px; 
+}
+
+#pricelist .plan ul {
+    display: block;
+    position: relative;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.50;
+    padding: 29px 0 22px;
+    min-height: 120px;
+    list-style: none; 
+}
+
+#pricelist .recommended {
+    margin-top: 0;
+    width: 28%;
+    position: relative;
+    z-index: 99;
+    background: #222222;
+    border-color: #222222; 
+}
+
+#pricelist .plan.recommended ul {
+    min-height: 176px;
+    line-height: 32px;
+    padding: 37px 0 22px; 
+}
+
+#pricelist .plan-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+#pricelist .plan-glow:hover, .plan-glow:focus, .plan-glow:active {
+    box-shadow: 0 0 12px rgba(2, 2, 2, 0.6);
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Blockquote</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- blockquote section start -->
+<section class="quote" style="background:white;blockquote p:black;">
+    <div class="container">
+        <p class="title">Blockquote</p>
+        <hr class="style-one">
+    </div>
+	<div class="container">
+        <!-- Start BlockQuote/Tooltip Section -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <blockquote>
+                    <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</p><cite title="Valention Rossi"> - Mahatma Gandhi -</cite>
+                </blockquote>
+            </div>
+        </div>
+        <!-- End BlockQuote/Tooltip Section -->
+    </div>
+</section>
+<!-- blockquote section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+/* ----  Blockquotes ---- */
+.quote {
+    background: #222222;
+	padding: 60px 0 80px;
+	text-align: center;
+}
+
+blockquote {
+    position: relative;
+    width: 100%;
+}
+
+blockquote p {
+    font-style: italic;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+blockquote cite {
+    text-align: center;
+  	display: block;
+  	color: #ae895d;
+  	font-weight: 300;
+  	font-size: 18px;
+  	line-height: 20px;
+    font-style: normal;
+}
+
+blockquote small:before {
+  	content: '';
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Tables</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- tables section start -->
+<section class="section-main" id="sc-table">
+    <div class="container">
+        <p class="title">TABLES</p>
+        <hr class="style-one">
+    </div>
+    <div class="container">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem</td>
+                    <td>Dolor sit amet cons</td>
+                    <td><strong>25&euro;</strong></td>
+                </tr>
+                <tr>
+                    <td>Ipsum</td>
+                    <td>Ipsum standart dummy</td>
+                    <td><strong>19&euro;</strong></td>
+                </tr>
+                <tr>
+                    <td>Dolor sit</td>
+                    <td>Typesetting industry</td>
+                    <td><strong>10&euro;</strong></td>
+                </tr>
+                <tr>
+                    <td>Amet</td>
+                    <td>Text ever since</td>
+                    <td><strong>90&euro;</strong></td>
+                </tr>
+                <tr>
+                    <td>Dummy</td>
+                    <td>Printing</td>
+                    <td><strong>120&euro;</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<!-- tables section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+/* ----  Tables ---- */
+.table { 
+    border-color: #e3cfb7; 
+    text-align: left; 
+}
+
+.table > thead > tr > th { 
+    background: #ae895d; 
+    color: #fff;
+    border-bottom: 0;
+    font-size: 13px; 
+    text-transform: uppercase;
+    font-weight: 700;
+    border-color: #d1d8dd; 
+}
+
+.table > thead > tr > th, 
+.table > tbody > tr > td { 
+    font-size: 15px; 
+    font-weight: 300; 
+    padding: 15px 20px; 
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td, 
+.table-striped > tbody > tr:nth-child(odd) > th { 
+    background: #fff; 
+}
+
+.table-striped > tbody > tr:nth-child(even) > td, 
+.table-striped > tbody > tr:nth-child(even) > th { 
+    background: #fff6eb; 
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Paragraphs &amp; Images</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- paragraphs and images section start -->
+<section class="section-main">
+    <div class="container">
+        <p class="title">Paragraphs &amp; Images</p>
+        <hr class="style-one">
+    </div>
+    <div class="container">
+        <div class="post-wrapper">
+            <!-- text & picture alignment -->
+            <div class="row">
+                <div class="col-xs-8 col-sm-8 col-md-8">
+                    <h2>Paragraphs, pictures and more</h2>
+                    <p>Commodo at blandit vitae, placerat in sem. Morbi ornare nec felis in euismod. Suspendisse vulputate orci ultrices enim facilisis, vel lobortis magna rhoncus. Integer mattis at elit vitae adipiscing. Cras imperdiet cursus nunc quis ullamcorper. Vivamus bibendum suscipit enim, hendrerit scelerisque arcu. Duis vulputate arcu quis est eleifend, aliquet gravida elit iaculis. Phasellus non mi dolor. Duis vel luctus mauris, et mollis lorem. Sed interdum, nibh at ornare accumsan, justo metus viverra nulla, in elementum ante erat non quam. Duis porttitor semper lectus a congue. Sed dignissim egestas consectetur. Nullam sit amet tellus ut dolor maximus luctus. Integer mattis, nisl nec hendrerit pretium, quam nibh luctus metus, ac tempus neque quam quis nulla. Maecenas gravida, sapien nec laoreet pulvinar, arcu ligula interdum odio, a ullamcorper risus magna et diam.</p>
+                    <p>Commodo at blandit vitae, placerat in sem. Morbi ornare nec felis in euismod. Suspendisse vulputate orci ultrices enim facilisis, vel lobortis magna rhoncus. Integer mattis at elit vitae adipiscing. Cras imperdiet cursus nunc quis ullamcorper. Duis porttitor semper lectus a congue. Sed dignissim egestas consectetur. Nullam sit amet tellus ut dolor maximus luctus. Integer mattis, nisl nec hendrerit pretium, quam nibh luctus metus, ac tempus neque quam quis nulla. Maecenas gravida, sapien nec laoreet pulvinar, arcu ligula interdum odio, a ullamcorper risus magna et diam.</p>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <img class="img-responsive" src="img/portfolio/portfolio_01.jpg">
+                </div>
+            </div>
+            <!-- picture & text alignment -->
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4">
+                    <img class="img-responsive" src="img/portfolio/portfolio_02.jpg">
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-8">
+                    <h2>Be creative but keep it clean</h2>
+                    <p>Commodo at blandit vitae, placerat in sem. Morbi ornare nec felis in euismod. Suspendisse vulputate orci ultrices enim facilisis, vel lobortis magna rhoncus. Integer mattis at elit vitae adipiscing. Cras imperdiet cursus nunc quis ullamcorper. Duis porttitor semper lectus a congue. Sed dignissim egestas consectetur. Nullam sit amet tellus ut dolor maximus luctus. Integer mattis, nisl nec hendrerit pretium, quam nibh luctus metus, ac tempus neque quam quis nulla. Maecenas gravida, sapien nec laoreet pulvinar, arcu ligula interdum odio, a ullamcorper risus magna et diam.</p>
+                </div>
+            </div>  			
+            <!-- heading centered -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Centered Heading, three text columns</h2>
+                </div>
+                    
+                <div class="col-md-4">
+                    <p>Commodo at blandit vitae, placerat in sem. Morbi ornare nec felis in euismod. Suspendisse vulputate orci ultrices enim facilisis, vel lobortis magna rhoncus. Integer mattis at elit vitae adipiscing. Cras imperdiet cursus nunc quis ullamcorper. Duis porttitor semper lectus a congue. Sed dignissim egestas consectetur. Nullam sit amet tellus ut dolor maximus luctus. Integer mattis, nisl nec hendrerit pretium, quam nibh luctus metus, ac tempus neque quam quis nulla. Maecenas gravida, sapien nec laoreet pulvinar, arcu ligula interdum odio, a ullamcorper risus magna et diam.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Tempus libero diam vel arcu. Etiam id tincidunt tortor. Nam auctor consequat quam, vel mattis dui laoreet a. Nunc condimentum iaculis tortor, id eleifend nulla mattis lobortis. Pellentesque semper blandit odio, id tempor lorem imperdiet eu. Ut sagittis sagittis consectetur, Maecenas eget risus eros. Nunc venenatis ante a rutrum cursus. Duis porttitor semper lectus a congue. Sed dignissim egestas consectetur. Nullam sit amet tellus ut dolor maximus luctus. Integer mattis, nisl nec hendrerit pretium, quam nibh luctus metus, ac tempus neque quam quis nulla. Maecenas gravida, sapien nec laoreet pulvinar, arcu ligula interdum odio, a ullamcorper risus magna et diam.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Commodo at blandit vitae, placerat in sem. Morbi ornare nec felis in euismod. Suspendisse vulputate orci ultrices enim facilisis, vel lobortis magna rhoncus. Integer mattis at elit vitae adipiscing. Cras imperdiet cursus nunc quis ullamcorper. Duis porttitor semper lectus a congue. Sed dignissim egestas consectetur. Nullam sit amet tellus ut dolor maximus luctus. Integer mattis, nisl nec hendrerit pretium, quam nibh luctus metus, ac tempus neque quam quis nulla. Maecenas gravida, sapien nec laoreet pulvinar, arcu ligula interdum odio, a ullamcorper risus magna et diam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- paragraphs and images section end -->
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+
+.post-wrapper {
+    color: #4b4848;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 50px 0 20px;
+    background: #fff;
+}
+
+.post-wrapper p {
+    color: #4b4848;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+
+.post-wrapper h2 {
+    color: #4b4848;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    line-height: 1.1;
+    margin: 0 0 30px;
+
+}
+
+.post-wrapper img {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">LightBox Image Gallery</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+            <!-- lightbox image gallery -->
+            <div class="row">
+                <div class="col-md-12 text-left">
+                    <h2>Lightbox Image Gallery</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a data-lightbox="image-01" href="http://placehold.it/1000x545" title="Title"><img class="img-responsive" src="http://placehold.it/360x360" alt=""></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a data-lightbox="image-02" href="http://placehold.it/1000x545" title="Title"><img class="img-responsive" src="http://placehold.it/360x360" alt=""></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a data-lightbox="image-03" href="http://placehold.it/1000x545" title="Title"><img class="img-responsive" src="http://placehold.it/360x360" alt=""></a>
+                </div>
+            </div>
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Dividers</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- dividers section start -->
+<section class="section-main">
+    <div class="container">
+        <p class="title">Dividers</p>
+        <hr class="style-one">
+    </div>
+	<div class="container">
+        <!-- Start BlockQuote/Tooltip Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">Style One</p>
+                <hr class="style-one">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">Style Two</p>
+                <hr class="style-two">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">Style Three</p>
+                <hr class="style-three">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">Style Four</p>
+                <hr class="style-four">
+            </div>
+        </div>
+        <!-- End BlockQuote/Tooltip Section -->
+    </div>
+</section>
+<!-- dividers section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+/* ----  Dividers ---- */
+hr.style-one {
+    position: relative;
+    border: 0;
+    height: 1px;
+    left: 25%;
+    width: 50%;
+    background: #c1c1c1; 
+    margin: 20px 0 40px;
+}
+
+hr.style-two {
+    position: relative;
+    border: 0;
+    left: 25%;
+    width: 50%;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0, 0, 0, 0.17), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.35), rgba(0,0,0,0)); 
+    margin: 20px 0 40px;
+}
+
+hr.style-three {
+    position: relative;
+    left: 25%;
+    width: 50%;
+	border-top: 3px double #8c8b8b;
+    margin: 20px 0 40px;
+}
+
+hr.style-four {
+    position: relative;
+    left: 25%;
+    width: 50%;
+	height: 6px;
+	background: url(../img/hr-04.png) repeat-x 0 0;
+    border: 0;
+    margin: 20px 0 40px;
+}
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Buttons</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- buttons section start -->
+<section class="section-main" id="buttons-sc">
+    <div class="container">
+        <p class="title">Buttons</p>
+        <hr class="style-one">
+    </div>
+	<div class="container">
+        <!-- Start Buttons/Video Responsive Section -->
+        <div class="row">
+        	<!-- Start Buttons -->
+        	<div class="btns col-md-8 col-md-offset-2 text-center">
+                <a class="btn btn-sm" href="#">small</a>
+                <a class="btn btn-md" href="#">medium</a>
+                <a class="btn btn-lg" href="#">large</a>
+                <a class="btn btn-xlg" href="#">extra large</a>
+            </div>
+            <!-- End Buttons -->
+        </div>
+    </div>
+</section>
+<!-- buttons section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+/* ----  Buttons ---- */
+.btn {
+  	border: solid 1px #ae895d;
+    border-radius: 0;
+    color: #ae895d; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    font-weight: 400;
+	-webkit-transition: all 0.1s linear;
+       -moz-transition: all 0.1s linear;
+         -o-transition: all 0.1s linear;
+            transition: all 0.1s linear;
+}
+
+.btn:hover,
+.btn:focus {
+    border: solid 1px #222222;
+    color: #222222;
+}
+
+.btn.btn-sm {
+  	padding: 8px 20px;
+  	font-size: 12px;
+}
+
+.btn.btn-md {
+  	padding: 12px 24px;
+  	font-size: 14px;
+}
+
+.btn.btn-lg {
+  	padding: 14px 34px;
+  	font-size: 16px;
+}
+
+.btn.btn-xlg {
+  	padding: 16px 32px;
+  	font-size: 18px;
+}
+
+.btn + .btn {
+	margin-left: 10px;	
+}
+
+
+                    </pre>
+                </div>
+            </li>
+                    
+			<li>
+				<a class="faq-trigger" href="#0">Twitter Feed</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- twitter section start -->
+<section class="section-container twitter" id="twitter">
+    <div class="container">
+        <p class="title">Twitter Feed</p>
+        <hr class="style-one">
+    </div>
+    <div class="container text-center wow fadeInUp data-wow-delay-04s">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="tweet-text" id="tweets">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- twitter section end -->
+
+                    </pre>
+                    
+                    <p>CSS</p>
+
+                    <pre class="brush: css; syntaxhighlighter">
+
+.user, .tweet, .timePosted {
+    text-align: center;
+}
+
+.user a {
+    color: #ae895d;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.tweet a {
+    color: rgba(34, 34, 34, 0.58);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tweet a:hover {
+    color: #ae895d;
+    text-decoration: none;
+}
+
+.user img {
+    display: none;
+}
+
+.tweet {
+    color: #222222;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.timePosted {
+    margin: 10px auto;
+    font-size: 16px;
+    padding-bottom: 40px;
+    color: #ae895d;
+    text-align: center;
+    width: 100%;
+}
+
+.timePosted a {
+    color: #222222;
+    text-decoration: none;
+}
+
+#twitter {
+    padding: 90px 0 90px;
+    background-color: #fff;
+    height: auto;
+    color: #222222;
+}
+
+#twitter .tweet-text {
+    color: #222222;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+                    </pre>
+                </div>
+            </li>
+            
+            <li>
+				<a class="faq-trigger" href="#0">Responsive Video</a>
+				<div class="faq-content">
+					<p>HTML</p>
+
+                    <pre class="brush: html; syntaxhighlighter">
+
+<!-- responsive video section start -->
+<section class="section-main">
+    <div class="container">
+        <p class="title">Responsive Video</p>
+        <hr class="style-one">
+    </div>
+	<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="video-frame">
+                    <iframe src="//player.vimeo.com/video/77761436?byline=0&amp;portrait=0&amp;badge=0&amp;color=b76f3b"></iframe>
+				</div>
+            </div>	
+        </div>
+</section>
+<!-- responsive video section end -->
+
+</pre>
+                    
+<p>CSS</p>
+
+<pre class="brush: css; syntaxhighlighter">
+
+/* ----  Video ---- */
+.video-frame {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-frame iframe,
+.video-frame object,
+.video-frame embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	border: none;
+}
+
+                    </pre>
+                </div>
+            </li>
+            
+		</ul>
+        
+        <ul id="retina" class="faq-group">
+			<li class="faq-title"><h2>Retina</h2></li>
+			<li>
+				<a class="faq-trigger" href="#0">Retina Images</a>
+				<div class="faq-content">
+					<p>This theme also contains a Retina script (retina.js) that adapts all imagines to retina displays. All you have to do is to add a higher resolution image (usually double the size) and give it a @2x ending. For example: logo@2x.png. Unfortunately, this only works for images added in HTML and not CSS. You can also add a higher quality images but that will take longer for a website to load. The choice is yours.</p>
+                    
+				</div>
+			</li>
+		</ul>
+        
+    <br>
+    <p>Thank you again for purchasing this great Template and Thank you for support.</p>
+    <br>
+    <p>Well, this is it, if you are still having issues setting up the theme please, contact us through our themeforest profile and we will do our best to get back to you as soon as possible, thank you and have fun.</p>
+
+
+</section>
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="js/faq.js"></script>
+<script type="text/javascript" src="js/syntax-highlighter/scripts/shCore.js"></script> 
+<script type="text/javascript" src="js/syntax-highlighter/scripts/shBrushXml.js"></script> 
+<script type="text/javascript" src="js/syntax-highlighter/scripts/shBrushCss.js"></script> 
+<script type="text/javascript" src="js/syntax-highlighter/scripts/shBrushJScript.js"></script> 
+<script type="text/javascript" src="js/syntax-highlighter/scripts/shBrushPhp.js"></script>
+    
+<!-- Syntax Highlighter -->
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+
+</body>
+</html>

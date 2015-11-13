@@ -1,0 +1,16 @@
+Changelog:
+
+v 1.1 - 21 October 2015
+-------------------------------------------------------------------
+ - Fixed video background issue when a grey bar would pop up under the video in certain browsers when stretched beyond 16/9 ratio
+ - Added Google Maps setup in documentation
+
+
+If you have already purchased the template all you have to do is:
+
+1. replace the video script section in script.js with the new one
+2. replace the old video section in style.css with the new section, this way you will not have to restyle everything.
+3. replace the video background header in index.html in the video_index folder with the new header.
+
+Just copy and paste everything, if in doubt please, let us know.
+
